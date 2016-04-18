@@ -6,7 +6,6 @@ build:
 	docker build --rm -t $(IMAGE):$(TAG) .
 run:
 	docker run -d --privileged \
-	 	-p 22:22 \
 		--name $(CONTAINER) \
 		$(IMAGE)
 exec:
