@@ -2,6 +2,9 @@ FROM alpine:3.3
 
 MAINTAINER ymst180 <ymst180@gmail.com>
 
+USER root
+ENV TERM xterm
+
 RUN mkdir -p ~root/.ssh
 RUN chmod 700 ~root/.ssh/
 
