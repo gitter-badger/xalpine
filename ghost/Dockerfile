@@ -1,9 +1,8 @@
-FROM ymst180/xalpine:latest
+FROM ymst180/xalpine:node
 
 MAINTAINER ymst180 <ymst180@gmail.com>
 
 RUN apk add --no-cache nodejs unzip
-WORKDIR /root/
 
 RUN wget https://ghost.org/zip/ghost-latest.zip
 RUN unzip ghost-latest.zip -d /root/ghost
