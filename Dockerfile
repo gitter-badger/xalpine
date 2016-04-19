@@ -6,5 +6,5 @@ USER root
 ENV TERM xterm
 
 RUN apk update && \
-    apk add bash git openssh rsync nano vim nginx
-RUN rm -rf /var/cache/apk/*
+    apk add --no-cache bash curl wget openssh nano vim git rsync
+RUN rm -rf /tmp/* /var/cache/apk/*
