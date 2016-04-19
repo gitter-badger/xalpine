@@ -6,8 +6,7 @@ USER root
 ENV TERM xterm
 
 RUN apk update && \
-    apk add --no-cache bash curl wget openssh git rsync nano vim
-RUN apk add --no-cache emacs --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ 
+    apk add --no-cache bash curl wget openssh git rsync nano
 RUN rm -rf /tmp/* /var/cache/apk/*
 
 WORKDIR /
