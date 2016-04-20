@@ -1,4 +1,11 @@
+CONTAINER=xalpine
+TAG=latest
+REPOSITORY=ymst180/$(CONTAINER)
+
 build:
-	docker build --rm -t ymst180/xalpine:latest .
+	docker build --rm -t $(REPOSITORY):$(TAG) .
 run:
-	docker run -it ymst180/xalpine bash
+	docker run -it --name xalpine $(REPOSITORY) /bin/bash
+rm:
+	docker rm -f $(CONTAINER)
+
