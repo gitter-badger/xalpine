@@ -6,11 +6,11 @@
 - [GitHubRepository](https://github.com/ymst180/xalpine)  
   
 - - -
-| Alpine	| Base		| Runtime	| Package	|
-| ---------	|:---------:| ---------	| ---------:|
-| 3.3		| xalpine	| none		| sshd		|
+| Alpine	| Base		| Runtime	| Tag		|
+|:---------:|:---------:|:---------:|:---------:|
+| 3.3		| xalpine	| -			| sshd		|
 | -			| -			| -			| nginx		|
-| -			| -			| -			| ghost		|
+| -			| -			| node		| ghost		|
 - - -
   
 ##### [latest](https://github.com/ymst180/xalpine/blob/master/latest/Dockerfile)(bash)
