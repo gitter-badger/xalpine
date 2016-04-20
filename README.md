@@ -16,6 +16,11 @@ docker run -itd --name sshd -p 22:22 ymst180/xalpine:sshd
 $sudo ssh root@localhost -p #password:root
 ```
   
+##### [nginx](https://github.com/ymst180/xalpine/blob/master/nginx/Dockerfile)
+```
+docker run -d --name nginx -p 80:80 -p 443:443 -v www:/var/www ymst180/xalpine:nginx
+```
+  
 ##### [ghost](https://github.com/ymst180/xalpine/blob/master/ghost/Dockerfile)
 ```
 docker run -itd --name ghost -p 2368:2368 ymst180/xalpine:ghost
