@@ -6,12 +6,13 @@
 - [GitHubRepository](https://github.com/ymst180/xalpine)  
   
 - - -
-| Alpine	| Base		| Runtime	| Tag		|
-|:---------:|:---------:|:---------:|:---------:|
-| 3.3		| xalpine	| -			| sshd		|
-| -			| -			| -			| nginx		|
-| -			| -			| node		| ghost		|
-| -			| -			| jdk		| glassfish	|
+## Dependency List
+| BaseLinux			| Repository| Runtime		| Tag		|
+|:-----------------:|:---------:|:-------------:|:---------:|
+| AlpineLinux:3.3	| xalpine	| -				| sshd		|
+| -					| -			| -				| nginx		|
+| -					| -			| node			| ghost		|
+| -					| -			| jdk			| glassfish	|
 - - -
   
 ##### [latest](https://github.com/ymst180/xalpine/blob/master/latest/Dockerfile)(bash)
