@@ -2,7 +2,7 @@ FROM ymst180/xalpine:node
 
 MAINTAINER ymst180 <ymst180@gmail.com>
 
-RUN apk add --no-cache nodejs unzip
+RUN apk add --no-cache unzip
 
 RUN wget https://ghost.org/zip/ghost-latest.zip
 RUN unzip ghost-latest.zip -d /root/ghost
