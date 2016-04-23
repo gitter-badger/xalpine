@@ -9,12 +9,12 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/ymst180/xalpine/blob/master/src/LICENSE)
 - - -
 ## Dependency List
-| BaseLinux			| Repository| Runtime		| Tag		|
-|:-----------------:|:---------:|:-------------:|:---------:|
-| AlpineLinux:3.3	| xalpine	| -				| sshd		|
-| -					| -			| -				| nginx		|
-| -					| -			| node			| ghost		|
-| -					| -			| jdk			| glassfish	|
+| BaseLinux			| Repository| RuntimeTag	| FrameworkTag	|
+|:-----------------:|:---------:|:-------------:|:-------------:|
+| AlpineLinux:3.3	| xalpine	| -				| sshd			|
+| -					| -			| -				| nginx			|
+| -					| -			| node			| ghost			|
+| -					| -			| jdk			| glassfish		|
 - - -
   
 ##### [latest](https://github.com/ymst180/xalpine/blob/master/latest/Dockerfile)(bash)
