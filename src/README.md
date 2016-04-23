@@ -6,7 +6,7 @@
 - [GitHubRepository](https://github.com/ymst180/xalpine)  
   
 ## License
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/ymst180/xalpine/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/ymst180/xalpine/blob/master/src/LICENSE)
 - - -
 ## Dependency List
 | BaseLinux			| Repository| Runtime		| Tag		|
