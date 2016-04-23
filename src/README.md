@@ -47,4 +47,9 @@ docker run -itd --name ghost \
 	ymst180/xalpine:ghost
 ```
   
-
+##### [glassfish](https://github.com/ymst180/xalpine/blob/master/glassfish/Dockerfile)
+```
+    docker run -d \
+	-p 4848:4848 -p 8080:8080 -p 8181:8181 \
+	--name $(CONTAINER) $(REPOSITORY):${TAG}
+```
